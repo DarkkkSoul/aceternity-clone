@@ -5,7 +5,7 @@ function Header() {
     return (
         <nav className='fixed flex flex-row items-center justify-between w-screen border-b border-gray-300 py-2 px-8 inter-300'>
 
-            <section className='flex flex-row items-center gap-x-5.5 text-[0.96rem] tracking-wide text-black/80'>
+            <section className='flex flex-row items-center gap-x-5.5 text-[0.96rem] tracking-wide text-[#737373]'>
                 <div className='w-40'>
                     <img src="/icons/main-logo.png" alt="Aceternity Logo" />
                 </div>
@@ -24,7 +24,7 @@ function Header() {
                 <div className='px-2.5 rounded-lg py-2 hover:bg-gray-200/70 bg-transparent cursor-pointer transition-colors'><button className='cursor-pointer'>Changelog</button></div>
             </section>
 
-            <section className='flex flex-row items-center gap-x-5 text-[0.96rem] tracking-wide text-black/80'>
+            <section className='flex flex-row items-center gap-x-5 text-[0.96rem] tracking-wide text-[#737373]'>
                 <div className='flex items-center gap-x-3 border border-gray-300 px-3 py-1 rounded-lg shadow-md'>
                     <Circle size={16} color='#00000080' />
                     <span>Search</span>
